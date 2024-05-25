@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="/images/quiz-logo-with-speech-bubble-icon_149152-813.avif" type="image/x-icon">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-image: url('/images/quiz\ time.webp');
+            font-family: sans-serif;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            width: 100%;
+        }
+        button{
+            margin-top: 28%;
+            text-decoration: none;
+            padding: 5px;
+            width: 10%;
+            border-radius: 10rem;
+            border: dashed;
+            font-size: 20px;
+            background-color: blanchedalmond;
+            color: black;
+        }
+        button:hover{
+            background-color: black;
+            color: blanchedalmond;
+        }
+        .std{
+            margin-top: 10%;
+        }
+        .std>label{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 25px;
+        }
+        .std>input{
+            border-radius: 10px;
+            height: 4vh;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="std">
+        <label for="">Student Name :</label>
+        <input type="text" name="" id="stdName"> <br>
+        <button id="start" class="btn" onclick="start()">Start</button>
+    </div>
+</body>
+<script src="/quiz/app.js"></script>
+</html>

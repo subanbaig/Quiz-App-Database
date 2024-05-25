@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(55, 172, 208, 0.8),rgba(0, 210, 88, 0.722));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.head{
+    padding:3% 0% 3% 0%;
+    width: 50%;
+    margin-left: 25%; 
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+        text-align: center;
+        padding: 0.8rem 0;
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+        background: linear-gradient(115deg, rgba(55, 172, 208, 0.8),rgba(0, 210, 88, 0.722));
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 5rem;
+}
+.timer{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.98);
+    border-radius: 20px;
+    background: linear-gradient(115deg, rgba(55, 172, 208, 0.8),rgba(0, 210, 88, 0.722));
+    margin: 0% 45% 0% 45%;
+    font-weight: 700;
+}
+#ques{
+    padding: 2rem;
+    cursor: default;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    width: 4rem;
+    text-decoration: underline;
+    padding: 6px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    text-align: center;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(0, 0, 0, 0.98);
+    background: linear-gradient(115deg, rgba(55, 172, 208, 0.8),rgba(0, 210, 88, 0.722));
+}
+button:active{
+    background: lavender;
+}
+
+.main{
+    display: block;
+    border-radius: 1rem;
+    position: relative;
+    padding: 0 1.5rem;
+    margin-top: 1.5rem;
+    background: linear-gradient(115deg, rgba(55, 172, 208, 0.8),rgba(0, 210, 88, 0.722));
+    border-radius: 1rem;
+    margin: 3rem auto;
+    width: 50%;
+}
